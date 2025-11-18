@@ -16,9 +16,10 @@ img_dataset = ImageDataset(
 trainer = Trainer(
     rectified_flow,
     dataset = img_dataset,
-    num_samples=81,
-    checkpoint_path='./checkpoints/clean/xai/hyper/5/AT&T/checkpoint.70000.pt',
-    result_path ='./sampling/clean/xai/hyper/5/AT&T/70000pt'
+    num_samples=16,
+    checkpoint_path='./checkpoints/AT&T/checkpoint.70000.pt',
+    result_path ='./sampling/AT&T'
 )
 
-trainer.sample_and_save_individual_images(checkpoint_path='./checkpoints/clean/xai/hyper/5/AT&T/checkpoint.70000.pt', result_path ='./sampling/clean/xai/hyper/5/AT&T/70000pt', num_samples=8)
+trainer.sample_and_save_individual_images(checkpoint_path='./checkpoints/AT&T/checkpoint.70000.pt', result_path ='./sampling/AT&T', num_samples=16)
+
