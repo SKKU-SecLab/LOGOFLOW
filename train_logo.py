@@ -44,8 +44,8 @@ trainer = Trainer(
     rectified_flow,
     dataset = img_dataset,
     num_train_steps = 100000,
-    results_folder = './results/clean/siam/hyper/5/AT&T', 
-    checkpoints_folder = './checkpoints/clean/siam/hyper/5/AT&T',
+    results_folder = './results/AT&T', 
+    checkpoints_folder = './checkpoints/AT&T',
     save_results_every = 1000,
     checkpoint_every = 10000
 )
@@ -54,4 +54,5 @@ trainer = Trainer(
 '''checkpoint_path = './checkpoints/clean/xai/hyper/0.1/instagram/checkpoint.10000.pt'
 trainer.load(checkpoint_path)
 trainer.forward(start_step = 10000)'''
+
 trainer()
