@@ -502,7 +502,7 @@ class RectifiedFlow(Module):
                         
             siamese_loss = torch.max(zero, siamese_distance - margin + offset).mean()
         
-            '''attention_map, sim_score = self.siamese_model.get_attention_map(target_img, generated_img)
+            attention_map, sim_score = self.siamese_model.get_attention_map(target_img, generated_img)
             
             
             if attention_map.shape[2:] != pred_flow.shape[2:]:
@@ -525,7 +525,7 @@ class RectifiedFlow(Module):
             
             for i in range(batch_size):        
                 save_path = f"attention_maps_clean_hyper/att_map_{i}.png"
-                self.siamese_model.visualize_attention_map(attention_map, save_path=save_path, idx=i, title=f"Attention Map {i}")'''
+                self.siamese_model.visualize_attention_map(attention_map, save_path=save_path, idx=i, title=f"Attention Map {i}")
                 
                 
         main_loss = self.loss_fn(output, target, pred_data = pred_data, times = times, data = data)
@@ -1226,7 +1226,7 @@ class Trainer(Module):
                 loss = self.model(data)
             
             if step == 1:
-                # ¹é¾÷
+                # Â¹Ã©Â¾Ã·
                 self._siamese_before = {
                     name: param.detach().clone()
                     for name, param in self.model.siamese_model.named_parameters()
@@ -1296,3 +1296,4 @@ class Trainer(Module):
             self.accelerator.wait_for_everyone()
 
         print('training complete')
+
