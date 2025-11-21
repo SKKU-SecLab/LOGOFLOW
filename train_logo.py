@@ -1,3 +1,12 @@
+# This file includes code from the rectified-flow-pytorch project:
+# https://github.com/lucidrains/rectified-flow-pytorch
+# 
+# Original author: Phil Wang (lucidrains)
+# Licensed under the MIT License
+#
+# Modifications by: SKKU-SecLab
+# Date: 2025-11-21
+
 import torch
 from rectified_flow_pytorch import RectifiedFlow, ImageDataset, Unet, Trainer, load_siamese_and_ocr_models
 
@@ -56,3 +65,4 @@ trainer.load(checkpoint_path)
 trainer.forward(start_step = 10000)'''
 
 trainer()
+
