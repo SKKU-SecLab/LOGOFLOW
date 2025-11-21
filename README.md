@@ -13,6 +13,7 @@ By leveraging attention-guided perturbations and rectified flow–based generati
 
 This project is based on the rectified-flow-pytorch implementation by Phil Wang (lucidrains).
 https://github.com/lucidrains/rectified-flow-pytorch
+
 ---
 
 ## Environment
