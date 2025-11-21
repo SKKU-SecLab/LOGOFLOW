@@ -1,3 +1,12 @@
+# This file includes code from the rectified-flow-pytorch project:
+# https://github.com/lucidrains/rectified-flow-pytorch
+# 
+# Original author: Phil Wang (lucidrains)
+# Licensed under the MIT License
+#
+# Modifications by: SKKU-SecLab
+# Date: 2025-11-21
+
 from __future__ import annotations
 
 import math
@@ -1296,4 +1305,5 @@ class Trainer(Module):
             self.accelerator.wait_for_everyone()
 
         print('training complete')
+
 
