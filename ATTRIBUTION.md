@@ -18,4 +18,4 @@ This library provides the rectified flow implementation used as the foundation f
 
 This repository offers implementations and datasets for generating adversarial logos to subvert visual phishing detectors (e.g., PhishIntention). Our work builds upon its methodology to evaluate adversarial robustness against phishing detection systems.
 
----
+
