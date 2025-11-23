@@ -26,6 +26,10 @@ Third-Party Notices
 
 This project includes code from:
 
-rectified-flow-pytorch by Phil Wang (lucidrains)  
-https://github.com/lucidrains/rectified-flow-pytorch  
-Licensed under the MIT License.
+1) rectified-flow-pytorch by Phil Wang (lucidrains)  
+   https://github.com/lucidrains/rectified-flow-pytorch  
+   Licensed under the MIT License.
+
+2) VisualPhish_public by gyNancy  
+   https://github.com/gyNancy/VisualPhish_public  
+   License: Not explicitly provided by the repository; all rights reserved to the original authors.
