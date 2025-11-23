@@ -1,3 +1,13 @@
+# This file includes code adapted from the VisualPhish_public project:
+# https://github.com/gyNancy/Visualphish_public
+#
+# Original authors: Qingying Hao, Nirav Diwan, Ying Yuan, Giovanni Apruzzese,
+#                   Mauro Conti, and Gang Wang (USENIX Security 2024)
+# All rights reserved to the original authors.
+#
+# Modifications by: SKKU-SecLab
+# Date: 2025-11-23
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -144,3 +154,4 @@ class SiameseModel(nn.Module):
             plt.close()
         else:
             plt.show()'''
+
