@@ -1,3 +1,13 @@
+# This file includes code adapted from the VisualPhish_public project:
+# https://github.com/gyNancy/Visualphish_public
+#
+# Original authors: Qingying Hao, Nirav Diwan, Ying Yuan, Giovanni Apruzzese,
+#                   Mauro Conti, and Gang Wang (USENIX Security 2024)
+# All rights reserved to the original authors.
+#
+# Modifications by: SKKU-SecLab
+# Date: 2025-11-23
+
 import math
 import random
 
@@ -243,3 +253,4 @@ def random_crop_arr(pil_image, image_size, min_crop_frac=0.8, max_crop_frac=1.0)
     crop_y = random.randrange(arr.shape[0] - image_size + 1)
     crop_x = random.randrange(arr.shape[1] - image_size + 1)
     return arr[crop_y : crop_y + image_size, crop_x : crop_x + image_size]
+
