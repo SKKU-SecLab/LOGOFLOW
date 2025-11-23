@@ -2,6 +2,16 @@
 Various utilities for neural networks.
 """
 
+# This file includes code adapted from the VisualPhish_public project:
+# https://github.com/gyNancy/Visualphish_public
+#
+# Original authors: Qingying Hao, Nirav Diwan, Ying Yuan, Giovanni Apruzzese,
+#                   Mauro Conti, and Gang Wang (USENIX Security 2024)
+# All rights reserved to the original authors.
+#
+# Modifications by: SKKU-SecLab
+# Date: 2025-11-23
+
 import math
 
 import torch as th
@@ -192,3 +202,4 @@ class CheckpointFunction(th.autograd.Function):
         for (i, g) in zip(input_indices, computed_grads):
             input_grads[i] = g
         return (None, None) + tuple(input_grads)
+
