@@ -12,8 +12,10 @@ By leveraging attention-guided perturbations and rectified flow–based generati
 <img src="target_modification.png" width="500" />
 
 <br>
-This project is based on the rectified-flow-pytorch implementation by Phil Wang (lucidrains).<br>
-https://github.com/lucidrains/rectified-flow-pytorch
+This project is based on the following repositories:
+<br>
+- rectified-flow-pytorch implementation by Phil Wang (lucidrains) https://github.com/lucidrains/rectified-flow-pytorch
+- PhishIntention implementation by gyNancy https://github.com/gyNancy/Visualphish_public/image_attack/guided_diffusion
 
 ---
 
