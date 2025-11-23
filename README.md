@@ -14,7 +14,7 @@ By leveraging attention-guided perturbations and rectified flow–based generati
 <br>
 This project is based on the following repositories:
 <br>
-- Rectified Model implementation by Phil Wang (lucidrains) https://github.com/lucidrains/rectified-flow-pytorch<br>
+- Rectified Model implementation by Phil Wang (lucidrains)<br>https://github.com/lucidrains/rectified-flow-pytorch<br>
 - Siamese Model implementation by gyNancy https://github.com/gyNancy/Visualphish_public/image_attack/guided_diffusion
 
 ---
