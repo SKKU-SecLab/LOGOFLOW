@@ -41,8 +41,9 @@ The pretrained OCR Siamese model weights used in LOGOFLOW are publicly available
 - **demo_downgrade.pth.tar**
 - **bit.pth.tar**
 
-🔗 https://github.com/gyNancy/Visualphish_public/blob/main/image_attack/guided_diffusion/OCR_siamese_utils/output/targetlist_lr0.01/bit.pth.tar
-🔗 https://github.com/gyNancy/Visualphish_public/blob/main/image_attack/guided_diffusion/OCR_siamese_utils/demo_downgrade.pth.tar
+🔗 https://github.com/gyNancy/Visualphish_public/blob/main/image_attack/guided_diffusion/OCR_siamese_utils/output/targetlist_lr0.01/
+<br>
+🔗 https://github.com/gyNancy/Visualphish_public/blob/main/image_attack/guided_diffusion/OCR_siamese_utils/
 
 Please download the weights and place them under:
 
