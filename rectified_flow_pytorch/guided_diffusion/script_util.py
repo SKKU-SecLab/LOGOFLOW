@@ -5,7 +5,7 @@
 #                   Mauro Conti, and Gang Wang (USENIX Security 2024)
 # All rights reserved to the original authors.
 #
-# Modifications by: SKKU-SecLab
+# Modifications by: Anonymous
 # Date: 2025-11-23
 
 import argparse
@@ -117,4 +117,5 @@ def str2bool(v):
         return False
     else:
         raise argparse.ArgumentTypeError("boolean value expected")
+
 
