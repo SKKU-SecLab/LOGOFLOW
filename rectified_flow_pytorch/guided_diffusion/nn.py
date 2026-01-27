@@ -9,7 +9,7 @@ Various utilities for neural networks.
 #                   Mauro Conti, and Gang Wang (USENIX Security 2024)
 # All rights reserved to the original authors.
 #
-# Modifications by: SKKU-SecLab
+# Modifications by: Anonymous
 # Date: 2025-11-23
 
 import math
@@ -202,4 +202,5 @@ class CheckpointFunction(th.autograd.Function):
         for (i, g) in zip(input_indices, computed_grads):
             input_grads[i] = g
         return (None, None) + tuple(input_grads)
+
 
