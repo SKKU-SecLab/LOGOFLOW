@@ -4,7 +4,7 @@
 # Original author: Phil Wang (lucidrains)
 # Licensed under the MIT License
 #
-# Modifications by: SKKU-SecLab
+# Modifications by: Anonymous
 # Date: 2025-11-21
 
 from __future__ import annotations
@@ -1305,5 +1305,6 @@ class Trainer(Module):
             self.accelerator.wait_for_everyone()
 
         print('training complete')
+
 
 
