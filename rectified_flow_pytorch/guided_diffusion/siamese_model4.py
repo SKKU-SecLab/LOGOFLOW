@@ -5,7 +5,7 @@
 #                   Mauro Conti, and Gang Wang (USENIX Security 2024)
 # All rights reserved to the original authors.
 #
-# Modifications by: SKKU-SecLab
+# Modifications by: Anonymous
 # Date: 2025-11-23
 
 import torch
@@ -154,4 +154,5 @@ class SiameseModel(nn.Module):
             plt.close()
         else:
             plt.show()'''
+
 
