@@ -4,7 +4,7 @@
 # Original author: Phil Wang (lucidrains)
 # Licensed under the MIT License
 #
-# Modifications by: SKKU-SecLab
+# Modifications by: Anonymous
 # Date: 2025-11-21
 
 import torch
@@ -65,4 +65,5 @@ trainer.load(checkpoint_path)
 trainer.forward(start_step = 10000)'''
 
 trainer()
+
 
