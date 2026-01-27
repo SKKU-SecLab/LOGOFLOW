@@ -5,7 +5,7 @@
 #                   Mauro Conti, and Gang Wang (USENIX Security 2024)
 # All rights reserved to the original authors.
 #
-# Modifications by: SKKU-SecLab
+# Modifications by: Anonymous
 # Date: 2025-11-23
 
 import math
@@ -901,4 +901,5 @@ class EncoderUNetModel(nn.Module):
         else:
             h = h.type(x.dtype)
             return self.out(h)
+
 
