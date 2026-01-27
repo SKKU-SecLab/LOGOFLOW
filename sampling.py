@@ -4,7 +4,7 @@
 # Original author: Phil Wang (lucidrains)
 # Licensed under the MIT License
 #
-# Modifications by: SKKU-SecLab
+# Modifications by: Anoymous
 # Date: 2025-11-21
 
 import torch
