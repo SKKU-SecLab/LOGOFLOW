@@ -16,6 +16,7 @@ This project is based on the following repositories:
 <br>
 - Rectified Model implementation by Phil Wang (lucidrains) https://github.com/lucidrains/rectified-flow-pytorch<br>
 - Siamese Model implementation by gyNancy https://github.com/gyNancy/Visualphish_public/image_attack/guided_diffusion
+- PhishIntention by Ruofan Liu (lindsey98) https://github.com/lindsey98/PhishIntention.git
 
 ---
 
