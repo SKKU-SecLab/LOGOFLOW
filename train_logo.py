@@ -45,7 +45,7 @@ rectified_flow = RectifiedFlow(model, siamese_model)
 
 
 img_dataset = ImageDataset(
-    folder = './datasets/AT&T',
+    folder = './datasets/ATT',
     image_size = 256
 )
 
@@ -53,8 +53,8 @@ trainer = Trainer(
     rectified_flow,
     dataset = img_dataset,
     num_train_steps = 100000,
-    results_folder = './results/AT&T', 
-    checkpoints_folder = './checkpoints/AT&T',
+    results_folder = './results/ATT', 
+    checkpoints_folder = './checkpoints/ATT',
     save_results_every = 1000,
     checkpoint_every = 10000
 )
@@ -65,5 +65,6 @@ trainer.load(checkpoint_path)
 trainer.forward(start_step = 10000)'''
 
 trainer()
+
 
 
