@@ -18,7 +18,7 @@ siamese_model = load_siamese_and_ocr_models()
 rectified_flow = RectifiedFlow(model, siamese_model)
 
 img_dataset = ImageDataset(
-    folder = './datasets/AT&T',
+    folder = './datasets/ATT',
     image_size = 256
 )
 
@@ -26,10 +26,11 @@ trainer = Trainer(
     rectified_flow,
     dataset = img_dataset,
     num_samples=16,
-    checkpoint_path='./checkpoints/AT&T/checkpoint.70000.pt',
-    result_path ='./sampling/AT&T'
+    checkpoint_path='./checkpoints/ATT/checkpoint.70000.pt',
+    result_path ='./sampling/ATT'
 )
 
-trainer.sample_and_save_individual_images(checkpoint_path='./checkpoints/AT&T/checkpoint.70000.pt', result_path ='./sampling/AT&T', num_samples=16)
+trainer.sample_and_save_individual_images(checkpoint_path='./checkpoints/ATT/checkpoint.70000.pt', result_path ='./sampling/ATT', num_samples=16)
+
 
 
