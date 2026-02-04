@@ -7,9 +7,9 @@ This repository includes the full training pipeline, sampling script, and all ne
 
 By leveraging attention-guided perturbations and rectified flow–based generative modeling, LogoFlow enables controlled manipulation of logo appearance while preserving human-recognizable semantics.
 
-<img src="logoflow_framework.png" width="500" />
+<img src="logoflow_framework.pdf" width="500" />
 
-<img src="target_modification.png" width="500" />
+<img src="target_modification.pdf" width="500" />
 
 <br>
 This project is based on the following repositories:
