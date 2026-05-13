@@ -69,7 +69,7 @@ python sampling.py
 ```
 
 
-## Citations
+## Citation
 If you use LOGOFLOW in your research, please cite our paper:
 
 ```bibtex
