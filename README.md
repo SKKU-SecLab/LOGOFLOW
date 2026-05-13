@@ -76,8 +76,7 @@ If you use LOGOFLOW in your research, please cite our paper:
 @inproceedings{cho2026logoflow,
   author    = {Yena Cho and Heesung Jeong and Sukyeong Bang and Doowon Kim and Hyoungshick Kim},
   title     = {{LOGOFLOW: Visual Saliency-Aware Adversarial Attack on Logo-Based Phishing Detectors}},
-  booktitle = {Proceedings of the 2026 IEEE International Conference on Image Processing (ICIP)},
-  year      = {2026},
-  note      = {To appear}
+  booktitle = {IEEE International Conference on Image Processing (ICIP)},
+  year      = {2026}
 }
 ```
